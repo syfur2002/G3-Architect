@@ -1,0 +1,52 @@
+.flex{
+    display: flex;
+}
+.bgcolor{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.menu{
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.menu > h3{
+    font-size:16px;
+}
+.menu-items li{
+    list-style: none;
+}
+.menu-items a{
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: smaller;
+}
+.hero{
+  flex-direction: column;
+}
+.hero-title{
+    text-align: center;
+}
+.hero-description{
+    text-align: center;
+    font-size: 10px;
+    margin: 0 50px 10px;
+}
+.hero-button{
+    text-align: center;
+    margin: 5px auto;
+    width: 15%;
+    background-color:rgb(255, 144, 14);
+    border: none;
+    border-radius: 8px;
+    padding: 6px 0 7px 0;
+}
+.hero-button a{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    
+}
+.hero-pic{
+    margin: 15px 50px;
+}
